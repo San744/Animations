@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .header{
+            width: 100%;
+            height: 500px;
+            
+        }
+        
+        .main{
+            background-image: linear-gradient(rgba(0, 0, 0,0.1),rgba(0, 0, 0,1)),url(./pexels-karl-solano-16963896.jpg);
+            width: 100%;
+            height: 480px;
+            background-size: cover;
+            position: relative;
+            
+            
+        }
+        .ab{
+            list-style-type: none;
+            display: flex;
+            font-size: 10px;
+             
+        }
+        li{
+            padding: 5px;
+        }
+        .a{
+            display: flex;
+          width: 90%;
+            color: white;
+            float: left;
+        }
+        .b{
+            position: absolute;
+            top: 170px;
+            left: 30px;
+             color: white;
+
+        }
+        .c{
+            animation-name: start;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            -webkit-background-clip: text;
+            background-image: linear-gradient(red, yellow);
+            animation-timing-function: linear;
+            background-position: -400px;
+            background-repeat: no-repeat;
+            color: transparent;
+            font-size: 50px;
+
+            
+
+        }
+        @keyframes start {
+            0%{
+                background-position: -300px;
+            }
+            100%{
+                background-position: 0;
+            }
+            
+        }
+        .e{
+            color: white;
+            float: right;
+            width: 5%;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            
+            
+        }
+        .mid{
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 40%;
+            
+
+        }
+        .end{
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 90%;
+
+
+        }
+        img{
+            width: 50px;
+            height: 50px;
+            animation-name: image;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            margin: 20px;
+        
+
+        }
+        .ac{
+            position: absolute;
+            bottom: 0;
+            
+         }
+        @keyframes image {
+            0%{
+                transform: translateY(0);
+            }
+            50%{
+                transform: translateY(-600px);
+            }
+            100%{
+                transform: translateY(0);
+            }
+            
+        }
+        .i1{
+            animation-delay: 0.8s;
+        } 
+        .i2{
+            animation-delay: 1s;
+        }
+        .i3{
+            animation-delay: 0.8s;
+        } 
+        .i4{
+            animation-delay: 0.5s;
+        } 
+        .i5{
+            animation-delay: 0.8s;
+        }     
+            
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+        <div class="a">
+        
+        <ul class="ab">
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Feedback</li>
+        </ul>
+
+        </div>
+        
+        <div class="e">
+            <i  class="fa-solid fa-bars"></i>
+            <div class="mid">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-facebook"></i>
+
+            </div>
+
+            <div class="end">
+                <i class="fa-solid fa-arrow-right"></i> 
+                <i class="fa-solid fa-question"></i>
+
+            </div>
+
+        
+
+        </div>
+        <div class="b">
+            <h3>Welcome To Animation</h3>
+            <h1 class="c">Hello  Animation</h1>
+            
+        </div>
+        <div class="ac">
+            
+                <img class="i1" src="./pngwing.com.png" alt="">
+                <img class="i2" src="./pngwing.com.png" alt="">
+                <img class="i3" src="./pngwing.com.png" alt="">
+                <img class="i4" src="./pngwing.com.png" alt="">
+                <img class="i5" src="./pngwing.com.png" alt="">
+                <img class="i1" src="./pngwing.com.png" alt="">
+                <img class="i2" src="./pngwing.com.png" alt="">
+                <img class="i3" src="./pngwing.com.png" alt="">
+                <img class="i4" src="./pngwing.com.png" alt="">
+                <img class="i5" src="./pngwing.com.png" alt="">
+
+            </ul>
+                            
+        </div>
+        
+    </div>
+</body>
+</html>
